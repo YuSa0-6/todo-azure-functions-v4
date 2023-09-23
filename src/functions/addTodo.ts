@@ -1,5 +1,5 @@
+// Todosテーブルに情報をPOSTする
 import { HttpRequest, HttpResponseInit, InvocationContext, app, output } from '@azure/functions';
-
 const sqlOutput = output.sql({
     commandText: 'dbo.Todos',
     connectionStringSetting: 'SqlConnectionString',

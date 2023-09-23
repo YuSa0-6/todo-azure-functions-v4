@@ -1,3 +1,4 @@
+//Todosテーブルから情報をGETする
 import { app, HttpRequest, HttpResponseInit, InvocationContext, input } from "@azure/functions";
 
 const sqlInput = input.sql({
